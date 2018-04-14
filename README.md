@@ -13,11 +13,7 @@ The Files.txt file attached to Activities.txt contains a set of activity records
 ## Tasks
 ####
 1. Counts the distinct days that appear in the monitoring data.
-#### 
 2. Determines a <String, Integer> Map that maps for each distinctive action. Writes the resulting map to a text file.
-#### 
 3. Generates a Map data <Integer, Map <String, Integer >> that contains the activity. Counts for each day of the log (task number 2 applied for each day of the log) and writes the result.
-#### 
 4. Determines a data structure of the Map <String, DateTime> that maps for each activity the total duration calculated during the monitoring period. Filters activities with a total duration of more than 10 hours. Writes the result in a text file.
-#### 
 5. Filters activities that have 90% of monitoring samples with a duration of less than 5 minutes. Collects the results in a <String> List that contains only the unique activity names and writes the result in a text file.
